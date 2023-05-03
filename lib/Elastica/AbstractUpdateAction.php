@@ -318,7 +318,7 @@ class AbstractUpdateAction extends Param
      */
     public function hasRetryOnConflict()
     {
-        return $this->hasParam('_retry_on_conflict');
+        return $this->hasParam('retry_on_conflict');
     }
 
     /**
