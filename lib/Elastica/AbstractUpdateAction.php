@@ -302,7 +302,7 @@ class AbstractUpdateAction extends Param
      */
     public function setRetryOnConflict($num)
     {
-        return $this->setParam('_retry_on_conflict', (int) $num);
+        return $this->setParam('retry_on_conflict', (int) $num);
     }
 
     /**
@@ -310,7 +310,7 @@ class AbstractUpdateAction extends Param
      */
     public function getRetryOnConflict()
     {
-        return $this->getParam('_retry_on_conflict');
+        return $this->getParam('retry_on_conflict');
     }
 
     /**
